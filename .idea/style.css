@@ -6,15 +6,41 @@ body{
 
 }
 
-label{
-    background: #ffaa00
 
+
+label{
+
+    border-radius: 20px 20px;
+    padding: 15px;
+    width: 110 px;
+    height: 75px;
+
+
+}
+
+.label1{
+    background: #ffaa00;
+}
+
+.label2{
+    background: #4455ff;
+}
+
+.label3{
+    background: #ff7700;
+}
+
+.label4{
+    background: #99dd66;
 }
 
 input{
-    background: #666688
+    background: #ddeeff;
+    margin-top: 20px;
+    margin-bottom: 20px
 }
 
 textarea{
-    background: #666688
+    background: #ddeeff;
+    margin-top: 20px;
 }
