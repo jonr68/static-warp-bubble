@@ -12,13 +12,17 @@ label{
 
     border-radius: 20px 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 200 px;
-    height: 75px;
-    margin-top: 15px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 200px;
+    height: 35px;
+    margin-top: 2px;
     margin-left: 2px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    white-space: nowrap;
 
 
 }
@@ -41,20 +45,22 @@ label{
 
 input{
     background: #ddeeff;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-left: 2px;
+    margin-top: 1px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: inline-block;
+
 }
 
 textarea{
     background: #ddeeff;
-    margin-top: 20px;
-    margin-left: 2px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .flex-container {
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 
 .screen-border-top-left {
@@ -81,3 +87,7 @@ textarea{
     width: 50px;
     height: 900px;
 }
+
+.submit-button {
+    background: #33cc99;
+ }
