@@ -10,21 +10,33 @@
     <div class="screen-border-top-left"></div>
     <div class="screen-border-top-across"></div>
 </div>
-<div class="screen-border-bottom-left-hook"></div>
+<div class="screen-border-top-left-hook"></div>
 <div class="flex-container">
     <div class="screen-border-left-side"></div>
     <form>
-        <label for="author" class="label1">Author:</label><br>
-        <input type="text" id="author" name="author"><br>
-        <label for="subject" class="label2">Subject:</label><br>
-        <input type="text" id="subject" name="subject"><br>
+        <div class="flex-container">
+            <label for="author" class="label1">Author:</label><br>
+            <input type="text" id="author" name="author" class="input1"><br>
+        </div>
+        <div class="flex-container">
+            <label for="subject" class="label2">Subject:</label><br>
+            <input type="text" id="subject" name="subject" class="input2"><br>
+        </div>
+        <div class="flex-container">
         <label for="pubDate" class="label3">Publish Date:</label><br>
-        <input type="date" id="pubDate" name="pubDate"><br>
+        <input type="date" id="pubDate" name="pubDate" class="input3"><br>
+        </div>
+        <div class="flex-container">
         <label for="post" class="label4" >Blog:</label><br>
-        <textarea id="post" name="post"  rows="5" cols="40">
+        <input type="submit" value="Submit" class="submit4">
+        </div>
+        <textarea id="post" name="post"  rows="35" cols="50" class="input4"></textarea><br>
             </textarea>
-        <input type="submit" value="Submit" class="s">
     </form>
+</div>
+<div class="flex-container">
+    <div class="screen-border-bottom-left"></div>
+    <div class="screen-border-bottom-across"></div>
 </div>
 </body>
 </html>

@@ -31,16 +31,53 @@ label{
     background: #ffaa00;
 }
 
+.input1{
+    background: black;
+    color: #ffaa00;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 200px;
+}
+
 .label2{
     background: #4455ff;
+}
+
+.input2 {
+    background-color: black;
+    color: #4455ff;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 200px;
 }
 
 .label3{
     background: #ff7700;
 }
 
+.input3 {
+    background-color: black;
+    color: #ff7700;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 200px;
+    color-scheme: inherit;
+}
+
 .label4{
     background: #99dd66;
+}
+
+.input4 {
+    background-color: black;
+    color: #99dd66;
+    padding-top: 10px;
+    margin-top: 10px;
+    width: 400px;
 }
 
 input{
@@ -54,13 +91,30 @@ input{
 
 textarea{
     background: #ddeeff;
+    padding-top: 100px;
     margin-top: 10px;
     margin-left: 20px;
 }
 
+.submit4 {
+    background: #99dd66;
+    border-radius: 20px 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 210px;
+    height: 48px;
+    margin-top: 1px;
+    margin-left: 1px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
 .flex-container {
     display: flex;
-    margin-bottom: 2px;
 }
 
 .screen-border-top-left {
@@ -91,3 +145,22 @@ textarea{
 .submit-button {
     background: #33cc99;
  }
+
+.screen-border-bottom-left {
+    background-color: #ffaa44;
+    border-bottom-left-radius: 80px 80px;
+    width: 200px;
+    height: 20px;
+}
+
+.screen-border-bottom-across {
+    background-color: #ffaa44;
+    width: 100%;
+    height: 20px;
+}
+
+.screen-border-bottom-left-hook {
+    background-color: white;
+    width: 50px;
+    height: 5px;
+}
